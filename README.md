@@ -30,3 +30,9 @@
 * SQL- PostgreSQL 
 * Joins, Group By, CTEs, Window Functions, Aggregations, and Ranking
 * Data Cleaning & Business Insights Generation
+
+## Key Insights Summary
+* Loyal customers drive repeat business — focus on customer retention.
+* Some stores and staff perform significantly better — useful for benchmarking.
+* Sales fluctuate by month — leverage seasonal marketing.
+* Certain categories and products dominate revenue — optimize inventory accordingly.
