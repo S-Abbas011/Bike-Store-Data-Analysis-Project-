@@ -1,0 +1,13 @@
+		Bike Store Data Analysis Using SQL - Task Questions
+
+Task 1: Total Orders by Customers
+Task 2: Total Sales per Store
+Task 3: Orders Status Count
+Task 4: Top 5 Customers by Spending
+Task 5: Top Selling Products
+Task 6: Sales per Category
+Task 7: Staff Performance
+Task 8: Rank Customers by Total Spending
+Task 9: Monthly Sales Trend per Store
+Task 10: Most Profitable Product per Category
+Task 11: Low Stock Products
