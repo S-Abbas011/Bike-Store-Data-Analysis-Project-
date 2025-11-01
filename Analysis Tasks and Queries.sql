@@ -1,7 +1,7 @@
-'''
+'
 Analysis Tasks and Queries
-# Task 1: Total Orders by Customers
-'''
+Task 1: Total Orders by Customers
+'
 ```SQL       
 Select c.customer_id, 
        c.first_name||' '||c.last_name as Full_Name, 
@@ -129,6 +129,7 @@ where st.quantity < 10
 )
 select * from low_stock
 order by store_id , quantity desc;
+
 
 
 
