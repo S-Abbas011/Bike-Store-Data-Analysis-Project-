@@ -1,8 +1,7 @@
 '
 Analysis Tasks and Queries
 Task 1: Total Orders by Customers
-'
-```SQL       
+'       
 Select c.customer_id, 
        c.first_name||' '||c.last_name as Full_Name, 
        count(o.order_id) as Total_order 
@@ -11,20 +10,19 @@ join orders as o
 on c.customer_id = o.customer_id 
 group by c.customer_id, Full_Name
 order by Total_order desc;
-'''
-''Insight:
+'
+Insight:
 Customers with the most orders are your most loyal buyers — great candidates for loyalty rewards.
-''' 
-```SQL       
+       
 
 Task 2: Total Sales per Store
-```sql
+'
 select o.store_id, s.store_name, sum(oi.list_price * oi.quantity) as Total_sales
 from orders as o
 join stores as s on o.store_id = s.store_id 
 join order_items as oi on o.order_id = oi.order_id 
 group by o.store_id, s.store_name
-order by total_sales desc; ```
+order by total_sales desc; ''
        
 'Insight:Stores with higher sales contribute more revenue — focus marketing and resources there.
 
@@ -129,6 +127,7 @@ where st.quantity < 10
 )
 select * from low_stock
 order by store_id , quantity desc;
+
 
 
 
