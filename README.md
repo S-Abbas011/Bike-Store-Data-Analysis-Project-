@@ -1,16 +1,15 @@
-# Bike-Store-Data-Analysis-Project-
+# Bike Store Data Analysis Project (SQL + Power BI)
 
 # Project Overview
 
-* This project analyzes sales, customer behavior, product performance, and store operations for a Bike Store using SQL.
-* The goal is to answer key business questions through data-driven insights — helping management improve sales, marketing, and inventory decisions.
+* This project delivers an end-to-end data analytics solution for a Bike Store by combining SQL-based data analysis with interactive Power BI dashboards. It transforms raw transactional data into actionable business insights for sales, customers, products, and store performance. *
 
 ## Ojective
-* To analyze and understand:
-* Which customers and stores perform best
-* What products sell the most
-* How orders, profit, and inventory vary
-* Which areas need operational improvement
+*Analyze sales, orders, and customer behavior using SQL
+*Identify top-performing products, brands, stores, and customers
+*Discover sales trends across years and locations
+*Visualize insights using an interactive Power BI dashboard
+*Support data-driven decision-making for management
 
 ## Dataset Description
 
@@ -30,6 +29,46 @@
 * SQL- PostgreSQL 
 * Joins, Group By, CTEs, Window Functions, Aggregations, and Ranking
 * Data Cleaning & Business Insights Generation
+
+## Power BI
+*Power BI Desktop
+*Data connection from PostgreSQL
+*Data modeling & relationships
+*DAX measures for KPIs
+*Interactive dashboards & slicers
+*Insight-driven visualizations
+
+## SQL Analysis Highlights
+*Using SQL, the following business questions were answered:
+*Which customers generate the highest revenue?
+*Which products, categories, and brands sell the most?
+*How do sales and orders trend by year and month?
+*Which stores and staff perform best?
+*How does inventory vary across stores?
+
+📊 Power BI Dashboard (Visualization Layer)
+
+The Power BI dashboard converts SQL insights into interactive and visually intuitive reports.
+
+🔹 Key KPIs
+
+Total Sales: 8.58M
+
+Total Quantity Sold: 7,078
+
+Total Orders: 4,722
+
+ ## Dashboard Insights
+* Sales Trend (2016–2018):
+- Sales peaked in 2017 and declined in 2018.
+* Category-wise Performance:
+- Mountain Bikes and Road Bikes dominate revenue.
+* Brand Contribution:
+- A small number of brands generate most sales.
+* Top Customers:
+- High-value customers identified for retention strategies.
+* State-wise Sales:
+- NY and CA are major revenue contributors.
 
 ## Key Insights Summary
 * Loyal customers drive repeat business — focus on customer retention.
